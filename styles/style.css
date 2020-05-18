@@ -149,6 +149,14 @@ footer div a {
   margin: 30px;
 }
 
+#contact {
+  height: 500px;
+  width: 75%;
+  background-color: white;
+  margin: 20px 0 60px 0;
+  font-family: "Roboto";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -166,5 +174,14 @@ h1 {
   font-size: 80px;
   margin-left: 100px;
   margin-top: 80px;
+}
+
+.centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

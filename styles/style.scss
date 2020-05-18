@@ -1,7 +1,8 @@
 @import "partials/nav-bar";
 @import "partials/footer";
 @import "partials/home-page";
-@import "partials/resume"; // Sample color palettes:
+@import "partials/resume";
+@import "partials/contact"; // Sample color palettes:
 // A:
 // #162447 (NAVY)
 // #1F4068 (BLUE)
@@ -28,4 +29,9 @@ h1 {
   font-size: 80px;
   margin-left: 100px;
   margin-top: 80px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
 }
