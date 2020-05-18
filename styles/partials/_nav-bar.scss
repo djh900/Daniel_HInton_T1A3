@@ -9,6 +9,9 @@ nav {
   @media (max-width: 500px) {
     height: 100px;
   }
+  position: fixed;
+  top: 0;
+  width: 100%;
   a {
     color: white;
     text-decoration: none;
@@ -21,9 +24,6 @@ nav {
   }
   ul {
     list-style: none;
-    position: fixed;
-    top: 0;
-    width: 100%;
     li a {
       display: inline;
       float: right;

@@ -2,6 +2,9 @@ nav {
   background-color: #162447;
   height: 44px;
   font-family: "Oswald", sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 @media (max-width: 500px) {
@@ -24,9 +27,6 @@ nav h2 {
 
 nav ul {
   list-style: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 nav ul li a {
@@ -118,7 +118,7 @@ footer div a {
 }
 
 html {
-  background-color: #0c0c14;
+  background-color: black;
 }
 
 h1 {
@@ -126,6 +126,6 @@ h1 {
   font-family: "Roboto";
   font-size: 80px;
   margin-left: 100px;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 /*# sourceMappingURL=style.css.map */
