@@ -42,7 +42,9 @@ nav ul li a:hover {
 footer {
   font-family: "Roboto";
   background-color: black;
+  position: fixed;
   bottom: 0;
+  width: 100%;
   color: white;
   height: 25px;
 }
@@ -102,6 +104,7 @@ footer div a {
   background-color: #585858;
   text-align: center;
   padding: 15px;
+  padding-bottom: 30px;
 }
 
 #skill-logos h3 {
