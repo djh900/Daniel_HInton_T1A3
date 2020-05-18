@@ -1,12 +1,12 @@
 $background: #162447;
-$hover: #1F4068;
+$hover: #1f4068;
 $text: white;
 
 nav {
   background-color: $background;
   height: 44px;
-  font-family: 'Oswald', sans-serif;
-  @media(max-width: 500px) {
+  font-family: "Oswald", sans-serif;
+  @media (max-width: 500px) {
     height: 100px;
   }
   a {
