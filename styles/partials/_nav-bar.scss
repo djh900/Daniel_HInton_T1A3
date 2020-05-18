@@ -1,0 +1,36 @@
+$background: #162447;
+$hover: #1F4068;
+$text: white;
+
+nav {
+  background-color: $background;
+  height: 44px;
+  font-family: 'Oswald', sans-serif;
+  @media(max-width: 500px) {
+    height: 100px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  h2 {
+    float: left;
+    overflow: auto;
+    margin: 3px;
+    margin-left: 10px;
+  }
+  ul {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    li a {
+      display: inline;
+      float: right;
+      padding: 10px;
+    }
+    li a:hover {
+      background-color: $hover;
+    }
+  }
+}
