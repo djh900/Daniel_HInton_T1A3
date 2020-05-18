@@ -1,6 +1,7 @@
 $text-color: white;
 $button-color: #162447;
 $button-hover: #1f4068;
+$skills-background: rgb(88, 88, 88);
 
 #homepage {
   font-family: "Roboto";
@@ -28,5 +29,29 @@ $button-hover: #1f4068;
   }
   a:hover {
     background-color: $button-hover;
+  }
+}
+
+#skill-logos {
+  font-family: "Roboto";
+  color: $text-color;
+  background-color: $skills-background;
+  text-align: center;
+  padding: 15px;
+  h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  #code-logos {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #code-titles {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    h4 {
+      margin: 0 38px;
+    }
   }
 }
