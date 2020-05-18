@@ -1,10 +1,11 @@
 @import "partials/nav-bar";
 @import "partials/footer";
-@import "partials/home-page"; // Sample color palettes:
+@import "partials/home-page";
+@import "partials/resume"; // Sample color palettes:
 // A:
 // #162447 (NAVY)
 // #1F4068 (BLUE)
-// #1B1B2F (BLACK)
+// ##0c0c14 (BLACK)
 // #E43F5A (RED)
 // B:
 // #1B262C (BLACK)
@@ -15,4 +16,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  background-color: #0c0c14;
+}
+
+h1 {
+  color: red;
+  font-family: "Roboto";
+  font-size: 80px;
+  margin-left: 100px;
+  margin-top: 30px;
 }

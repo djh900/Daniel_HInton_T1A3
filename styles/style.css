@@ -63,7 +63,7 @@ footer div a {
   padding: 0 3px;
 }
 
-main {
+#homepage {
   font-family: "Roboto";
   text-align: center;
   background-image: url(../../images/background.jpg);
@@ -72,18 +72,18 @@ main {
   color: white;
 }
 
-main h2 {
+#homepage h2 {
   padding: 20px;
   padding-top: 150px;
   font-size: 50px;
 }
 
-main h3 {
+#homepage h3 {
   margin-bottom: 40px;
   font-size: 25px;
 }
 
-main a {
+#homepage a {
   text-decoration: none;
   color: white;
   background-color: #162447;
@@ -92,8 +92,22 @@ main a {
   border-radius: 5px;
 }
 
-main a:hover {
+#homepage a:hover {
   background-color: #1f4068;
+}
+
+#resume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#resume iframe {
+  height: 800px;
+  margin: 30px;
 }
 
 * {
@@ -101,5 +115,17 @@ main a:hover {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  background-color: #0c0c14;
+}
+
+h1 {
+  color: red;
+  font-family: "Roboto";
+  font-size: 80px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
