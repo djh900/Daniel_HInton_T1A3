@@ -118,11 +118,11 @@ footer div a {
 }
 
 html {
-  background-color: black;
+  background-color: #141422;
 }
 
 h1 {
-  color: red;
+  color: #e43f5a;
   font-family: "Roboto";
   font-size: 80px;
   margin-left: 100px;
