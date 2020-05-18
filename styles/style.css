@@ -150,9 +150,9 @@ footer div a {
 }
 
 #contact {
-  height: 505px;
-  width: 700px;
-  background-color: white;
+  height: 800px;
+  width: 710px;
+  background-color: #fafafa;
   margin: 20px 0 60px 0;
   font-family: "Roboto";
   padding: 15px 0 0 20px;
@@ -160,12 +160,21 @@ footer div a {
 }
 
 #contact p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#contact p a {
+  text-decoration: none;
+}
+
+#contact p em {
+  color: red;
+  font-style: normal;
 }
 
 #contact h2 {
   text-align: center;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 #contact #contact-form {
@@ -200,7 +209,42 @@ footer div a {
 #contact #contact-form #submit-button button {
   font-size: 16px;
   padding: 5px;
-  margin-top: 10px;
+  margin: 10px 0 20px 0;
+}
+
+#contact #contact-form #code-logos-1 {
+  font-family: "Roboto";
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+#contact #contact-form #code-logos-1 h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#contact #contact-form #code-logos-1 #code-logos-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact #contact-form #code-logos-1 #code-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px;
+}
+
+#contact #contact-form #code-logos-1 #code-titles h4 {
+  margin: 0 25px;
 }
 
 * {
