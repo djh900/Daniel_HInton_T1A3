@@ -286,6 +286,12 @@ footer div a {
   margin: 0 25px;
 }
 
+#profile-photo {
+  width: 75%;
+  text-align: center;
+  margin-top: 15px;
+}
+
 * {
   margin: 0;
   padding: 0;
