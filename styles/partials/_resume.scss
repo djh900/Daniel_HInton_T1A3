@@ -1,8 +1,11 @@
 #resume {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
   iframe {
-    height: 800px;
+    height: 1200px;
+    width: 80%;
     margin: 30px;
+    max-width: 850px;
   }
 }
