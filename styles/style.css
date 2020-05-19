@@ -101,7 +101,16 @@ footer div a {
 #skill-logos {
   font-family: "Roboto";
   color: white;
-  background-color: #585858;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,28343b+100 */
+  background: #b5bdc8;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#b5bdc8), to(#28343b));
+  background: linear-gradient(to bottom, #b5bdc8 0%, #28343b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 );
+  /* IE6-9 */
   text-align: center;
   padding: 15px;
   padding-bottom: 30px;
@@ -135,6 +144,22 @@ footer div a {
   margin: 0 38px;
 }
 
+#home-blog {
+  height: 300px;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  background-color: red;
+}
+
+#home-contact {
+  height: 300px;
+  width: 50%;
+  background-color: green;
+  display: inline-block;
+  float: right;
+}
+
 #resume {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,7 +167,6 @@ footer div a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 1000px;
 }
 
 #resume iframe {
@@ -153,7 +177,16 @@ footer div a {
 #contact {
   height: 800px;
   width: 710px;
-  background-color: #fafafa;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+  background: white;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(47%, #f6f6f6), to(#ededed));
+  background: linear-gradient(to bottom, white 0%, #f6f6f6 47%, #ededed 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+  /* IE6-9 */
   margin: 20px 0 60px 0;
   font-family: "Roboto";
   padding: 15px 0 0 20px;
@@ -211,6 +244,11 @@ footer div a {
   font-size: 16px;
   padding: 5px;
   margin: 10px 0 20px 0;
+}
+
+#contact #contact-form #submit-button button:hover {
+  background-color: grey;
+  outline: none;
 }
 
 #contact #contact-form #code-logos-1 {
