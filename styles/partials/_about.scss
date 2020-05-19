@@ -1,5 +1,21 @@
+$font: "Roboto";
+
 #profile-photo {
   width: 75%;
   text-align: center;
   margin-top: 15px;
+}
+
+#about-details {
+  width: 75%;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  p {
+    color: white;
+    font-family: $font;
+    font-size: 20px;
+    a {
+      color: lightblue;
+    }
+  }
 }
