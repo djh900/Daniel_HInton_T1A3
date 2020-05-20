@@ -305,6 +305,26 @@ footer div a {
   color: lightblue;
 }
 
+#projects {
+  font-family: "Roboto";
+}
+
+.project {
+  background-color: white;
+  height: 200px;
+  width: 800px;
+  margin: 50px;
+}
+
+.project .content {
+  margin: 10px;
+}
+
+.project img {
+  margin: 9px;
+  float: left;
+}
+
 * {
   margin: 0;
   padding: 0;
