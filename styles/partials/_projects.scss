@@ -1,0 +1,20 @@
+$font: "Roboto";
+$project-background-color: white;
+
+#projects {
+  font-family: $font;
+}
+
+.project {
+  background-color: $project-background-color;
+  height: 200px;
+  width: 800px;
+  margin: 50px;
+  .content {
+    margin: 10px;
+  }
+  img {
+    margin: 9px;
+    float: left;
+  }
+}
