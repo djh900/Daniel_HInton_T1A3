@@ -291,6 +291,7 @@ footer div a {
 
 #about-details {
   width: 75%;
+  max-width: 3692px;
   margin-bottom: 100px;
   margin-top: 30px;
 }
@@ -307,22 +308,63 @@ footer div a {
 
 #projects {
   font-family: "Roboto";
+  margin-bottom: 100px;
 }
 
 .project {
   background-color: white;
-  height: 200px;
+  height: 150px;
   width: 800px;
-  margin: 50px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .project .content {
   margin: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project .content h2 {
+  margin-bottom: 10px;
+}
+
+.project .content p {
+  margin-bottom: 8px;
+}
+
+.project .content .languages {
+  margin-bottom: 18px;
+}
+
+.project .content a {
+  color: white;
+  background-color: #162447;
+  padding: 7px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project .content a:hover {
+  background-color: #1f4068;
 }
 
 .project img {
   margin: 9px;
-  float: left;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.project .wwtbam-logo {
+  margin: 5px 35px;
+}
+
+.project:hover {
+  background-color: lightgrey;
 }
 
 * {
