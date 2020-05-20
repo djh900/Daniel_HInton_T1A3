@@ -360,11 +360,83 @@ footer div a {
 }
 
 .project .wwtbam-logo {
-  margin: 5px 35px;
+  margin: 10px 35px;
 }
 
 .project:hover {
   background-color: lightgrey;
+}
+
+#blog-posts {
+  font-family: "Roboto";
+  margin-bottom: 100px;
+}
+
+.blog-post {
+  background-color: white;
+  height: 150px;
+  width: 800px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-post .content {
+  margin: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-post .content h2 {
+  margin-bottom: 10px;
+}
+
+.blog-post .content h2 a {
+  color: black;
+}
+
+.blog-post .content p {
+  margin-bottom: 8px;
+}
+
+.blog-post img {
+  margin: 9px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 180px;
+}
+
+.blog-post:hover {
+  background-color: lightgrey;
+}
+
+#blog-content {
+  font-family: "Roboto";
+  width: 1000px;
+  background-color: white;
+  margin: 25px 0 100px 0;
+  padding: 10px 20px 20px 20px;
+}
+
+#blog-content h2 {
+  font-size: 50px;
+}
+
+#blog-content h3 {
+  margin: 10px 0;
+}
+
+#blog-content img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#blog-content p {
+  margin-top: 15px;
+  font-size: 16px;
 }
 
 * {

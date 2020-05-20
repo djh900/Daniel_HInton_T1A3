@@ -1,0 +1,40 @@
+$font: "Roboto";
+$project-background-color: white;
+$project-background-hover-color: lightgrey;
+$button-color: #162447;
+$button-hover: #1f4068;
+
+#blog-posts {
+  font-family: $font;
+  margin-bottom: 100px;
+}
+
+.blog-post {
+  background-color: $project-background-color;
+  height: 150px;
+  width: 800px;
+  margin: 20px;
+  display: flex;
+  .content {
+    margin: 10px;
+    justify-content: center;
+    h2 {
+      margin-bottom: 10px;
+      a {
+        color: black;
+      }
+    }
+    p {
+      margin-bottom: 8px;
+    }
+  }
+  img {
+    margin: 9px;
+    justify-content: start;
+    width: 180px;
+  }
+}
+
+.blog-post:hover {
+  background-color: $project-background-hover-color;
+}
