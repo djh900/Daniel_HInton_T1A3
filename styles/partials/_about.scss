@@ -1,4 +1,6 @@
 $font: "Roboto";
+$text-color: white;
+$link-color: lightblue;
 
 #profile-photo {
   width: 75%;
@@ -11,11 +13,11 @@ $font: "Roboto";
   margin-bottom: 100px;
   margin-top: 30px;
   p {
-    color: white;
+    color: $text-color;
     font-family: $font;
     font-size: 20px;
     a {
-      color: lightblue;
+      color: $link-color;
     }
   }
 }
