@@ -1,8 +1,32 @@
 #resume {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
   iframe {
-    height: 800px;
+    width: 80%;
     margin: 30px;
+    max-width: 850px;
+    height: 1000px;
+  }
+}
+
+#download-resume {
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 500px) {
+  #resume {
+    iframe {
+      display: none;
+    }
   }
 }

@@ -1,7 +1,12 @@
 @import "partials/nav-bar";
 @import "partials/footer";
 @import "partials/home-page";
-@import "partials/resume"; // Sample color palettes:
+@import "partials/resume";
+@import "partials/contact";
+@import "partials/about";
+@import "partials/projects";
+@import "partials/blog";
+@import "partials/blog-articles"; // Sample color palettes:
 // A:
 // #162447 (NAVY)
 // #1F4068 (BLUE)
@@ -24,9 +29,27 @@ html {
 }
 
 h1 {
+<<<<<<< HEAD
+=======
+  color: white;
+>>>>>>> master
   font-family: "Roboto";
   font-size: 80px;
   margin-left: 100px;
   margin-top: 80px;
   color: #1b262c;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 0 10px 0;
+    padding: 0;
+  }
 }
