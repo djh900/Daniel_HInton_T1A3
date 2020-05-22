@@ -6,12 +6,19 @@ nav {
   background-color: $background;
   height: 44px;
   font-family: "Oswald", sans-serif;
-  @media (max-width: 500px) {
-    height: 100px;
-  }
   position: fixed;
   top: 0;
   width: 100%;
+  button {
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: $background;
+    color: $text;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    float: right;
+  }
   a {
     color: white;
     text-decoration: none;
@@ -31,6 +38,25 @@ nav {
     }
     li a:hover {
       background-color: $hover;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    height: 89px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    h2 {
+      grid-row: 1/2;
+    }
+    ul {
+      grid-row: 2/3;
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
     }
   }
 }
