@@ -1,9 +1,10 @@
 $text-color: white;
 $button-color: #162447;
 $button-hover: #1f4068;
+$font: "Roboto";
 
 #homepage {
-  font-family: "Roboto";
+  font-family: $font;
   text-align: center;
   background-image: url(../../images/background.jpg);
   background-size: cover;
@@ -32,7 +33,7 @@ $button-hover: #1f4068;
 }
 
 #skill-logos {
-  font-family: "Roboto";
+  font-family: $font;
   color: $text-color;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,28343b+100 */
   background: #b5bdc8; /* Old browsers */
@@ -52,7 +53,6 @@ $button-hover: #1f4068;
     #28343b 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
-
   text-align: center;
   padding: 15px;
   padding-bottom: 30px;
@@ -74,17 +74,60 @@ $button-hover: #1f4068;
   }
 }
 
-#home-blog {
-  height: 300px;
-  width: 50%;
-  display: inline-block;
-  float: left;
-  background-color: red;
-}
 #home-contact {
-  height: 300px;
-  width: 50%;
-  background-color: green;
-  display: inline-block;
+  color: white;
+  height: 250px;
+  width: 100%;
+  font-family: $font;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ff7c00+20,ff7c00+20,ff7c00+49,ffa73d+73,ff7f04+100 */
+  background: #ffb76b; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #ffb76b 0%,
+    #ff7c00 20%,
+    #ff7c00 20%,
+    #ff7c00 49%,
+    #ffa73d 73%,
+    #ff7f04 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #ffb76b 0%,
+    #ff7c00 20%,
+    #ff7c00 20%,
+    #ff7c00 49%,
+    #ffa73d 73%,
+    #ff7f04 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffb76b 0%,
+    #ff7c00 20%,
+    #ff7c00 20%,
+    #ff7c00 49%,
+    #ffa73d 73%,
+    #ff7f04 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   float: right;
+  padding: 10px;
+  h2 {
+    font-size: 40px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin: 10px 10px 20px 10px;
+    color: white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
