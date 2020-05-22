@@ -50,9 +50,9 @@ nav ul li a:hover {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
+    grid-template-columns: 100%;
     -ms-grid-rows: 50% 50%;
-        grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 50%;
     text-align: center;
   }
   nav h2 {
@@ -68,12 +68,12 @@ nav ul li a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
 }
 
@@ -144,7 +144,13 @@ footer div a {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(#b5bdc8), to(#28343b));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#b5bdc8),
+    to(#28343b)
+  );
   background: linear-gradient(to bottom, #b5bdc8 0%, #28343b 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 );
@@ -164,8 +170,8 @@ footer div a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 #skill-logos #code-titles {
@@ -173,8 +179,8 @@ footer div a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   padding: 10px;
 }
 
@@ -192,8 +198,26 @@ footer div a {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#ffb76b), color-stop(20%, #ff7c00), color-stop(20%, #ff7c00), color-stop(49%, #ff7c00), color-stop(73%, #ffa73d), to(#ff7f04));
-  background: linear-gradient(to right, #ffb76b 0%, #ff7c00 20%, #ff7c00 20%, #ff7c00 49%, #ffa73d 73%, #ff7f04 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffb76b),
+    color-stop(20%, #ff7c00),
+    color-stop(20%, #ff7c00),
+    color-stop(49%, #ff7c00),
+    color-stop(73%, #ffa73d),
+    to(#ff7f04)
+  );
+  background: linear-gradient(
+    to right,
+    #ffb76b 0%,
+    #ff7c00 20%,
+    #ff7c00 20%,
+    #ff7c00 49%,
+    #ffa73d 73%,
+    #ff7f04 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 );
   /* IE6-9 */
@@ -202,14 +226,14 @@ footer div a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   float: right;
   padding: 10px;
 }
@@ -237,8 +261,8 @@ footer div a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 100px;
 }
 
@@ -264,6 +288,12 @@ footer div a {
   text-decoration: underline;
 }
 
+@media (max-width: 500px) {
+  #resume iframe {
+    display: none;
+  }
+}
+
 #contact {
   height: 800px;
   width: 710px;
@@ -272,7 +302,14 @@ footer div a {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(47%, #f6f6f6), to(#ededed));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    color-stop(47%, #f6f6f6),
+    to(#ededed)
+  );
   background: linear-gradient(to bottom, white 0%, #f6f6f6 47%, #ededed 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
@@ -358,8 +395,8 @@ footer div a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 #contact #contact-form #code-logos-1 #code-titles {
@@ -367,8 +404,8 @@ footer div a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   padding: 10px;
 }
 
@@ -476,8 +513,8 @@ footer div a {
 .project .content {
   margin: 10px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .project .content h2 {
@@ -507,8 +544,8 @@ footer div a {
 .project img {
   margin: 9px;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 .project .wwtbam-logo {
@@ -550,8 +587,8 @@ footer div a {
 .blog-post .content {
   margin: 10px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .blog-post .content h2 {
@@ -569,8 +606,8 @@ footer div a {
 .blog-post img {
   margin: 9px;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
   width: 180px;
 }
 
@@ -632,7 +669,7 @@ footer div a {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -652,8 +689,8 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (max-width: 500px) {
