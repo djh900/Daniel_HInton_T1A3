@@ -22,3 +22,11 @@
     text-decoration: underline;
   }
 }
+
+@media (max-width: 500px) {
+  #resume {
+    iframe {
+      display: none;
+    }
+  }
+}
