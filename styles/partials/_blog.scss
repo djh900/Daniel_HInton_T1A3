@@ -38,3 +38,20 @@ $button-hover: #1f4068;
 .blog-post:hover {
   background-color: $project-background-hover-color;
 }
+
+@media (max-width: 500px) {
+  .blog-post {
+    margin: 10px;
+    .content {
+      h2 {
+        font-size: 16px;
+      }
+      p {
+        display: none;
+      }
+      #date {
+        display: block;
+      }
+    }
+  }
+}

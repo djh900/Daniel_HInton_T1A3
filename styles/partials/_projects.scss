@@ -50,3 +50,20 @@ $button-hover: #1f4068;
 .project:hover {
   background-color: $project-background-hover-color;
 }
+
+@media (max-width: 500px) {
+  .project {
+    margin: 10px;
+    .content {
+      h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      p {
+        display: none;
+      }
+      a {
+      }
+    }
+  }
+}

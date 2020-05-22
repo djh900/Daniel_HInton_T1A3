@@ -44,22 +44,6 @@ nav {
 
 @media only screen and (max-width: 500px) {
   nav {
-    width: 100px;
-    button {
-      display: block;
-      outline: none;
-    }
-    ul {
-      visibility: hidden;
-    }
-    button:hover {
-      background-color: $hover;
-    }
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 768px) {
-  nav {
     height: 89px;
     display: grid;
     grid-template-columns: 100%;

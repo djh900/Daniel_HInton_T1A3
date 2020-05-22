@@ -46,22 +46,6 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 500px) {
   nav {
-    width: 100px;
-  }
-  nav button {
-    display: block;
-    outline: none;
-  }
-  nav ul {
-    visibility: hidden;
-  }
-  nav button:hover {
-    background-color: #1f4068;
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 768px) {
-  nav {
     height: 89px;
     display: -ms-grid;
     display: grid;
@@ -117,12 +101,6 @@ footer div {
 
 footer div a {
   padding: 0 3px;
-}
-
-@media only screen and (max-width: 500px) {
-  footer {
-    display: none;
-  }
 }
 
 #homepage {
@@ -265,10 +243,25 @@ footer div a {
 }
 
 #resume iframe {
-  height: 1200px;
   width: 80%;
   margin: 30px;
   max-width: 850px;
+  height: 1000px;
+}
+
+#download-resume {
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+}
+
+#download-resume a {
+  text-decoration: none;
+  color: white;
+}
+
+#download-resume a:hover {
+  text-decoration: underline;
 }
 
 #contact {
@@ -383,6 +376,37 @@ footer div a {
   margin: 0 25px;
 }
 
+@media (max-width: 500px) {
+  #contact {
+    margin-top: 0;
+    width: 90%;
+    font-size: 15px;
+  }
+  #contact p {
+    padding-right: 20px;
+  }
+  #contact #contact-form .input input {
+    width: 250px;
+    margin-right: 20px;
+  }
+  #contact #contact-form .input select {
+    width: 250px;
+    background-color: white;
+    margin-right: 12px;
+  }
+  #contact #contact-form #message textarea {
+    width: 250px;
+    margin-right: 15px;
+  }
+  #contact #contact-form #submit-button button {
+    background-color: white;
+    margin-right: 10px;
+  }
+  #contact #contact-form #code-logos-1 {
+    margin-right: 20px;
+  }
+}
+
 #profile-photo {
   width: 75%;
   text-align: center;
@@ -409,12 +433,13 @@ footer div a {
 @media only screen and (max-width: 500px) {
   #profile-photo {
     width: 90%;
+    margin-top: 0;
   }
   #about-details {
     width: 90%;
   }
   #about-details p {
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 
@@ -494,6 +519,19 @@ footer div a {
   background-color: lightgrey;
 }
 
+@media (max-width: 500px) {
+  .project {
+    margin: 10px;
+  }
+  .project .content h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .project .content p {
+    display: none;
+  }
+}
+
 #blog-posts {
   font-family: "Roboto";
   margin-bottom: 100px;
@@ -540,6 +578,21 @@ footer div a {
   background-color: lightgrey;
 }
 
+@media (max-width: 500px) {
+  .blog-post {
+    margin: 10px;
+  }
+  .blog-post .content h2 {
+    font-size: 16px;
+  }
+  .blog-post .content p {
+    display: none;
+  }
+  .blog-post .content #date {
+    display: block;
+  }
+}
+
 #blog-content {
   font-family: "Roboto";
   width: 1000px;
@@ -564,6 +617,15 @@ footer div a {
 #blog-content p {
   margin-top: 15px;
   font-size: 16px;
+}
+
+@media (max-width: 500px) {
+  #blog-content {
+    margin-top: 5px;
+  }
+  #blog-content h2 {
+    font-size: 30px;
+  }
 }
 
 * {
@@ -592,5 +654,14 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 0 10px 0;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */

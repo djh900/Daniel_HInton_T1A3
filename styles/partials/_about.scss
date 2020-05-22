@@ -26,11 +26,12 @@ $link-color: lightblue;
 @media only screen and (max-width: 500px) {
   #profile-photo {
     width: 90%;
+    margin-top: 0;
   }
   #about-details {
     width: 90%;
     p {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 }
