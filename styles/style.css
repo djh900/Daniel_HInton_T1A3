@@ -1,7 +1,7 @@
 nav {
-  background-color: #162447;
-  height: 44px;
-  font-family: "Oswald", sans-serif;
+  background-color: black;
+  height: 40px;
+  font-family: "Chelsea Market", cursive;
   position: fixed;
   top: 0;
   width: 100%;
@@ -11,7 +11,7 @@ nav button {
   display: none;
   padding: 10px;
   font-size: 16px;
-  background-color: #162447;
+  background-color: black;
   color: white;
   border: none;
   font-family: "Oswald", sans-serif;
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #1f4068;
+  background-color: #707070;
 }
 
 @media only screen and (max-width: 500px) {
@@ -126,14 +126,14 @@ footer div a {
 #homepage a {
   text-decoration: none;
   color: white;
-  background-color: #162447;
+  background-color: black;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
 }
 
 #homepage a:hover {
-  background-color: #1f4068;
+  background-color: #707070;
 }
 
 #skill-logos {
@@ -500,14 +500,14 @@ footer div a {
 
 .project .content a {
   color: white;
-  background-color: #162447;
+  background-color: black;
   padding: 7px;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .project .content a:hover {
-  background-color: #1f4068;
+  background-color: #707070;
 }
 
 .project img {
@@ -522,7 +522,7 @@ footer div a {
 }
 
 .project:hover {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 @media (max-width: 500px) {
@@ -581,7 +581,7 @@ footer div a {
 }
 
 .blog-post:hover {
-  background-color: lightgrey;
+  background-color: white;
 }
 
 @media (max-width: 500px) {
@@ -646,7 +646,7 @@ html {
 }
 
 h1 {
-  font-family: "Roboto";
+  font-family: "Chelsea Market", cursive;
   font-size: 80px;
   margin-left: 100px;
   margin-top: 80px;
