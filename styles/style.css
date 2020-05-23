@@ -251,17 +251,23 @@ footer div a {
 
 #download-resume {
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Roboto";
 }
 
 #download-resume a {
   text-decoration: none;
-  color: white;
+  color: blue;
 }
 
 #download-resume a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  #resume iframe {
+    display: none;
+  }
 }
 
 #contact {
@@ -421,13 +427,13 @@ footer div a {
 }
 
 #about-details p {
-  color: white;
+  color: black;
   font-family: "Roboto";
   font-size: 20px;
 }
 
 #about-details p a {
-  color: lightblue;
+  color: blue;
 }
 
 @media only screen and (max-width: 500px) {
@@ -640,10 +646,6 @@ html {
 }
 
 h1 {
-<<<<<<< HEAD
-=======
-  color: white;
->>>>>>> master
   font-family: "Roboto";
   font-size: 80px;
   margin-left: 100px;
