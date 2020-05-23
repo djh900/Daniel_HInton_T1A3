@@ -19,6 +19,10 @@ $link-color: lightblue;
     font-size: 20px;
     a {
       color: $link-color;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
