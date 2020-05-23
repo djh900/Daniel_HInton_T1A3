@@ -38,6 +38,27 @@ The website incorporates several pages containing details about me, how to conta
 
 ### Screenshots
 
+##### Desktop
+
+![Desktop-screenshot-1](./docs/screenshot-1.png)
+![Desktop-screenshot-2](./docs/screenshot-2.png)
+![Desktop-screenshot-3](./docs/screenshot-3.png)
+![Desktop-screenshot-4](./docs/screenshot-4.png)
+![Desktop-screenshot-5](./docs/screenshot-5.png)
+![Desktop-screenshot-6](./docs/screenshot-6.png)
+![Desktop-screenshot-7](./docs/screenshot-7.png)
+![Desktop-screenshot-8](./docs/screenshot-8.png)
+
+##### Mobile
+
+![Mobile-screenshot-1](./docs/screenshot-9.png)
+![Mobile-screenshot-2](./docs/screenshot-10.png)
+![Mobile-screenshot-3](./docs/screenshot-11.png)
+![Mobile-screenshot-4](./docs/screenshot-12.png)
+![Mobile-screenshot-5](./docs/screenshot-13.png)
+![Mobile-screenshot-6](./docs/screenshot-13.5.png)
+![Mobile-screenshot-7](./docs/screenshot-14.png)
+
 ### Target Audience
 
 ### Tech Stack
