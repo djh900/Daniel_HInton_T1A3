@@ -15,6 +15,27 @@ The website incorporates several pages containing details about me, how to conta
 
 ### Sitemap
 
+- Index.html
+- About.html
+- Projects.html
+- Resume.html
+- Blog.html
+- Contact.html
+- Blog
+  - 20 May blog post (html)
+  - 21 May blog post (html)
+  - 22 May blog post (html)
+  - 23 May blog post (html)
+  - 24 May blog post (html)
+- Images
+- Styles
+  - Style.css
+  - Style.scss
+  - Partials
+    - \_navbar.scss
+    - \_footer.scss
+    - .scss partials for each page
+
 ### Screenshots
 
 ### Target Audience
