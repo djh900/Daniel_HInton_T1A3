@@ -1,5 +1,5 @@
 nav {
-  background-color: #162447;
+  background-color: black;
   height: 44px;
   font-family: "Oswald", sans-serif;
   position: fixed;
@@ -11,7 +11,7 @@ nav button {
   display: none;
   padding: 10px;
   font-size: 16px;
-  background-color: #162447;
+  background-color: black;
   color: white;
   border: none;
   font-family: "Oswald", sans-serif;
@@ -78,7 +78,7 @@ nav ul li a:hover {
 }
 
 footer {
-  font-family: "Roboto";
+  font-family: "Raleway";
   background-color: black;
   position: fixed;
   bottom: 0;
@@ -251,17 +251,23 @@ footer div a {
 
 #download-resume {
   text-align: center;
-  color: white;
-  font-family: "Roboto";
+  color: black;
+  font-family: "Raleway";
 }
 
 #download-resume a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 #download-resume a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  #resume iframe {
+    display: none;
+  }
 }
 
 #contact {
@@ -278,9 +284,10 @@ footer div a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
   /* IE6-9 */
   margin: 20px 0 60px 0;
-  font-family: "Roboto";
+  font-family: "Raleway";
   padding: 15px 0 0 20px;
   font-size: 20px;
+  border: 3px black solid;
 }
 
 #contact p {
@@ -342,7 +349,7 @@ footer div a {
 }
 
 #contact #contact-form #code-logos-1 {
-  font-family: "Roboto";
+  font-family: "Raleway";
   text-align: center;
   padding: 15px;
   padding-bottom: 30px;
@@ -421,13 +428,13 @@ footer div a {
 }
 
 #about-details p {
-  color: white;
-  font-family: "Roboto";
+  color: black;
+  font-family: "Raleway";
   font-size: 20px;
 }
 
 #about-details p a {
-  color: lightblue;
+  color: blue;
 }
 
 @media only screen and (max-width: 500px) {
@@ -459,7 +466,7 @@ footer div a {
 }
 
 #projects {
-  font-family: "Roboto";
+  font-family: "Raleway";
   margin-bottom: 100px;
 }
 
@@ -471,6 +478,7 @@ footer div a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 3px black solid;
 }
 
 .project .content {
@@ -494,7 +502,7 @@ footer div a {
 
 .project .content a {
   color: white;
-  background-color: #162447;
+  background-color: black;
   padding: 7px;
   text-decoration: none;
   border-radius: 5px;
@@ -533,7 +541,7 @@ footer div a {
 }
 
 #blog-posts {
-  font-family: "Roboto";
+  font-family: "Raleway";
   margin-bottom: 100px;
 }
 
@@ -545,6 +553,7 @@ footer div a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 3px black solid;
 }
 
 .blog-post .content {
@@ -594,11 +603,12 @@ footer div a {
 }
 
 #blog-content {
-  font-family: "Roboto";
+  font-family: "Raleway";
   width: 1000px;
   background-color: white;
   margin: 25px 0 100px 0;
   padding: 10px 20px 20px 20px;
+  border: black 3px solid;
 }
 
 #blog-content h2 {
@@ -636,15 +646,11 @@ footer div a {
 }
 
 html {
-  background-color: #bbe1fa;
+  background-color: white;
 }
 
 h1 {
-<<<<<<< HEAD
-=======
-  color: white;
->>>>>>> master
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 80px;
   margin-left: 100px;
   margin-top: 80px;

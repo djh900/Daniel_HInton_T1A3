@@ -1,7 +1,7 @@
-$font: "Roboto";
+$font: "Raleway";
 $project-background-color: white;
 $project-background-hover-color: lightgrey;
-$button-color: #162447;
+$button-color: black;
 $button-hover: #1f4068;
 
 #projects {
@@ -15,6 +15,7 @@ $button-hover: #1f4068;
   width: 800px;
   margin: 20px;
   display: flex;
+  border: 3px black solid;
   .content {
     margin: 10px;
     justify-content: center;

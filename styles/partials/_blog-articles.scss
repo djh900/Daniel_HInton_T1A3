@@ -1,4 +1,4 @@
-$font-family: "Roboto";
+$font-family: "Raleway";
 
 #blog-content {
   font-family: $font-family;
@@ -6,6 +6,7 @@ $font-family: "Roboto";
   background-color: white;
   margin: 25px 0 100px 0;
   padding: 10px 20px 20px 20px;
+  border: black 3px solid;
   h2 {
     font-size: 50px;
   }
