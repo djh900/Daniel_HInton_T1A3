@@ -6,27 +6,21 @@
 @import "partials/about";
 @import "partials/projects";
 @import "partials/blog";
-@import "partials/blog-articles"; // Sample color palettes:
-// A:
-// #162447 (NAVY)
-// #1F4068 (BLUE)
-// ##0c0c14 (BLACK)
-// #E43F5A (RED)
-// B:
-// #1B262C (BLACK)
-// #0F4C75 (NAVY)
-// #3282B8 (BLUE)
-// #BBE1FA (LIGHT BLUE)
+@import "partials/blog-articles";
+
+// CSS Reset
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+// Background color for all pages
 html {
   background-color: #141422;
 }
 
+// The main header on each page except the homepage
 h1 {
   color: white;
   font-family: "Roboto";
@@ -35,11 +29,13 @@ h1 {
   margin-top: 80px;
 }
 
+// Class to center objects
 .centered {
   display: flex;
   justify-content: center;
 }
 
+// Reducing the main header size and alignment on mobile
 @media (max-width: 500px) {
   h1 {
     font-size: 50px;

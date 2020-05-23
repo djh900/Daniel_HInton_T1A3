@@ -4,11 +4,13 @@ $project-background-hover-color: lightgrey;
 $button-color: #162447;
 $button-hover: #1f4068;
 
+// All the page's content below the heading
 #blog-posts {
   font-family: $font;
   margin-bottom: 100px;
 }
 
+// The individual blog post previews
 .blog-post {
   background-color: $project-background-color;
   height: 150px;
@@ -39,6 +41,7 @@ $button-hover: #1f4068;
   background-color: $project-background-hover-color;
 }
 
+// Media query for mobile
 @media (max-width: 500px) {
   .blog-post {
     margin: 10px;

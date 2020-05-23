@@ -4,11 +4,13 @@ $project-background-hover-color: lightgrey;
 $button-color: #162447;
 $button-hover: #1f4068;
 
+// Style for the Projects page
 #projects {
   font-family: $font;
   margin-bottom: 100px;
 }
 
+// Styling the individual project previews
 .project {
   background-color: $project-background-color;
   height: 150px;
@@ -27,6 +29,7 @@ $button-hover: #1f4068;
     .languages {
       margin-bottom: 18px;
     }
+    // Link to GitHub button
     a {
       color: white;
       background-color: $button-color;
@@ -51,6 +54,7 @@ $button-hover: #1f4068;
   background-color: $project-background-hover-color;
 }
 
+// Media query for mobile
 @media (max-width: 500px) {
   .project {
     margin: 10px;
@@ -61,8 +65,6 @@ $button-hover: #1f4068;
       }
       p {
         display: none;
-      }
-      a {
       }
     }
   }

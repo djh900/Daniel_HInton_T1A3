@@ -1,3 +1,4 @@
+// Styling the iframe the resume PDF is shown in
 #resume {
   display: flex;
   justify-content: center;
@@ -10,6 +11,7 @@
   }
 }
 
+// Styling the heading above to download a PDF of the resume
 #download-resume {
   text-align: center;
   color: white;
@@ -23,6 +25,7 @@
   }
 }
 
+// Mobile media query
 @media (max-width: 500px) {
   #resume {
     iframe {

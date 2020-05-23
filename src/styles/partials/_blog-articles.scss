@@ -1,5 +1,6 @@
 $font-family: "Roboto";
 
+// The blog posts
 #blog-content {
   font-family: $font-family;
   width: 1000px;
@@ -22,6 +23,7 @@ $font-family: "Roboto";
   }
 }
 
+// Media query for mobile
 @media (max-width: 500px) {
   #blog-content {
     h2 {

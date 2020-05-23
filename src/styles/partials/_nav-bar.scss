@@ -2,6 +2,7 @@ $background: #162447;
 $hover: #1f4068;
 $text: white;
 
+// Styling navbar
 nav {
   background-color: $background;
   height: 44px;
@@ -9,6 +10,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  // This button is not used; there for future use when I can use javascript
+  // and create a dropdown menu with it
   button {
     display: none;
     padding: 10px;
@@ -23,12 +26,14 @@ nav {
     color: white;
     text-decoration: none;
   }
+  // The 'Daniel Hinton' heading
   h2 {
     float: left;
     overflow: auto;
     margin: 3px;
     margin-left: 10px;
   }
+  // The navbar links
   ul {
     list-style: none;
     li a {
@@ -42,6 +47,7 @@ nav {
   }
 }
 
+// Mobile media query
 @media only screen and (max-width: 500px) {
   nav {
     height: 89px;

@@ -1,3 +1,4 @@
+// Style for the footer
 footer {
   font-family: "Roboto";
   background-color: black;
@@ -6,12 +7,14 @@ footer {
   width: 100%;
   color: white;
   height: 25px;
+  // Name on left side
   p {
     float: left;
     overflow: auto;
     margin: 4px;
     margin-left: 5px;
   }
+  // Social media links on right side
   div {
     float: right;
     padding: 2px;
