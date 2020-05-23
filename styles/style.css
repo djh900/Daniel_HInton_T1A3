@@ -104,7 +104,7 @@ footer div a {
 }
 
 #homepage {
-  font-family: "Roboto";
+  font-family: "Raleway";
   text-align: center;
   background-image: url(../../images/background.jpg);
   background-size: cover;
@@ -126,7 +126,7 @@ footer div a {
 #homepage a {
   text-decoration: none;
   color: white;
-  background-color: #162447;
+  background-color: black;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
@@ -137,7 +137,7 @@ footer div a {
 }
 
 #skill-logos {
-  font-family: "Roboto";
+  font-family: "Raleway";
   color: white;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b5bdc8+0,28343b+100 */
   background: #b5bdc8;
@@ -186,7 +186,7 @@ footer div a {
   color: white;
   height: 250px;
   width: 100%;
-  font-family: "Roboto";
+  font-family: "Raleway";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb76b+0,ff7c00+20,ff7c00+20,ff7c00+49,ffa73d+73,ff7f04+100 */
   background: #ffb76b;
   /* Old browsers */
