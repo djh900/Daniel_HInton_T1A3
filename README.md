@@ -20,3 +20,8 @@ The website incorporates several pages containing details about me, how to conta
 ### Target Audience
 
 ### Tech Stack
+
+- HTML
+- CSS
+- Sass
+- CPanel
